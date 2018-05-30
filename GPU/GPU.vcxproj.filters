@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Cuda lib">
+      <UniqueIdentifier>{0b1db670-9a39-4cd6-9f2f-21662b4de7ca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GPU.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lib\cusolver.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\cusparse.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\nppc.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\nppial.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\nppicc.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\nppicom.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\nppidei.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\nppif.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\nppig.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\nppim.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\nppist.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\nppisu.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\nppitc.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\npps.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\nvblas.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\nvcuvid.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\nvgraph.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\nvml.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\nvrtc.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\OpenCL.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\cublas.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\cublas_device.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\cuda.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\cudadevrt.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\cudart.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\cudart_static.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\cufft.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\cufftw.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+    <Library Include="..\lib\curand.lib">
+      <Filter>Cuda lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
